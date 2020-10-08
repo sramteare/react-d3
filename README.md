@@ -1,4 +1,4 @@
-# react-ds3 exercise
+# react-d3 exercise
 
 # Task
 From the data provided draw a line chart of Percent Value vs Category.

@@ -1,23 +1,4 @@
-# react-d3 exercise
-![chart pic](chart.png)
-# Task
-From the data provided draw a line chart of Percent Value vs Category.
-The chart should have horizontal and vertical line that pinpoints the data location on the chart with a
-circle.
-The chart should support sticky pinpoint (Horizontal and Vertical line must pinpoint on a single and
-closest data point) when mouse moves around the chart area.
-# Extra Task
-There should be a summary line chart (a small line chart without axis) at the bottom of the chart.
-This summary line chart, should filter the original chart using a range selection using mouse drag. The
-selected range are greyed and the above chart are filtered on y and x axis.
-# Axes Definition
-Category axis are to be sorted in ascending order. Two users having the same category are to be merged
-and their names should be displayed with comma ',').
-Percent Value axis ranges from 0-100% and it is based on the proportion from the total value for all
-category.
-# Data
-```json
-[
+ const data = [
     {
         "user": "Rm6vnmNPRvz",
         "value": 11,
@@ -92,6 +73,10 @@ category.
         "user": "vwEH33kh8 Bhny",
         "value": 6,
         "category": 5
+    },{
+        "user": "vwEH33kh8 Bhny",
+        "value": 15,
+        "category": 12
     }
 ];
-```
+export default data;
